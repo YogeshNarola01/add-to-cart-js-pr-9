@@ -179,6 +179,7 @@ const editcart = (id) => {
     });
     localStorage.setItem('cart', JSON.stringify(cartdata));
     console.log(cartdata);
+    viewrcord();
     viewcart();
 }
 
